@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos 
+POST https://videos-node-js.onrender.com/videos 
 Content-Type: application/json
 
 
@@ -10,12 +10,12 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://videos-node-js.onrender.com/videos
 
 
 ###
 
-PUT http://localhost:3333/videos/579afbf0-6cf3-4b96-a488-b4f31e7178de
+PUT https://videos-node-js.onrender.com/videos/579afbf0-6cf3-4b96-a488-b4f31e7178de
 Content-Type: application/json
 
 {
@@ -27,6 +27,6 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/b4b95950-bec3-4aec-af2a-7d424345af2a
+DELETE https://videos-node-js.onrender.com/videos/b4b95950-bec3-4aec-af2a-7d424345af2a
 
 ```
